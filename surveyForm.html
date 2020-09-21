@@ -1,0 +1,87 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+
+<h1 id="title">We sell your personal data</h1>
+<p id="description">
+Please complete the survey, we want to know the little details about you</p>
+
+ <!-- input fields -->
+<form id="survey-form"> 
+ <label id="name-label"><b>Your name:</b> </label>
+<input type="text" id="name" name="name" placeholder="Your name" required>
+<br>
+<br>
+ 
+ <label id="email-label"><b>Your email:</b> </label>
+<input type="email" id="email" name="email" placeholder="Your email" required>
+<br>
+<br>
+ 
+ <label id="number-label"><b>Your Age:</b></label>
+<input type="number" id="number" name="number" placeholder="Your Age" min=13  max=120 required>
+<br>
+<br>
+ 
+ <!-- dropdown menu -->
+<select id="dropdown">
+  <option value="choose">Please choose your favorite season</option>
+  <option value="spring" id="spring">Spring</option>
+  <option value="summer" id="summer">Summer</option>
+  <option value="autumn" id="autumn">Autumn</option>
+  <option value="winter" id="winter">Winter</option>
+</select>
+  <br>
+ 
+ <!-- radio buttons -->
+  <p><b>Choose your personality:</b></p>
+    <input type="radio" id="radiobutton1" name="personality" value="loving">
+    <label for="p1">Loving</label> <br>
+  
+    <input type="radio" id="radiobutton2" name="personality" value="wild"> 
+    <label for="p2">Wild</label> <br>
+  
+    <input type="radio" id="radiobutton3" name="personality" value="distant">
+    <label for="p3">Distant</label> <br>
+  
+      <input type="radio" id="radiobutton4" name="personality" value="intellectual">
+    <label for="p4">Intellectual</label> <br>
+
+  
+  
+  <!-- checkboxes -->
+  <p><b>Choose your programming languages:</b></p>
+  <input type="checkbox" id="checkbox1" name="python" value="loving">
+    <label for="c1">Python</label> <br>
+  
+    <input type="checkbox" id="checkbox2" name="csharp" value="wild"> 
+    <label for="c2">C#</label> <br>
+  
+    <input type="checkbox" id="checkbox3" name="javascript" value="distant">
+    <label for="c3">JavaScript</label> <br>
+  
+      <input type="checkbox" id="checkbox4" name="cplusplus" value="intellectual">
+    <label for="c4">C++</label> <br> <br> 
+  
+  
+  
+  
+ <fieldset class="field">
+    <div class="input">
+        <label for="comment">Anything else you want to tell us?</label> <br>
+           <textarea id="comment" name="comment" placeholder="Enter your comment" rows="10" cols="40"></textarea>
+     </div>
+ </fieldset> <br>
+  
+ <div class="input">
+      <button id="submit" type="submit" name="submit">Submit</button>
+                    </div>
+</form>

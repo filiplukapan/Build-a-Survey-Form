@@ -1,0 +1,26 @@
+#spring {
+    background-color: orange;
+  }
+  
+  #summer {
+    background-color: red;
+  }
+  
+  #autumn {
+    background-color: yellow;
+  }
+  
+  #winter {
+    background-color: lightblue;
+  }
+  
+  form {
+    font-style: Times New Roman;
+  }
+  
+  fieldset { 
+    border: 6px solid darkred; 
+    border-radius: 6px; 
+    background: white;
+    max-width: 500px;
+  } 
